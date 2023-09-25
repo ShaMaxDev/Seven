@@ -10,10 +10,11 @@ namespace Seven
     {
         static void Main(string[] args)
         {
-            int number = 5;
+            int startNumber = 5;
             int step = 7;
-           
-            for (int i = number; i < 100; i += step)
+            int limit = 100;
+
+            for (int i = startNumber; i < limit; i += step)
             {
                 Console.WriteLine(i);
             }
