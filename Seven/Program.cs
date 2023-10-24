@@ -12,9 +12,9 @@ namespace Seven
         {
             int startNumber = 5;
             int step = 7;
-            int limit = 100;
+            int limit = 96;
 
-            for (int i = startNumber; i < limit; i += step)
+            for (int i = startNumber; i <= limit; i += step)
             {
                 Console.WriteLine(i);
             }
